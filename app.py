@@ -45,7 +45,46 @@ RESEARCH_GUIDELINES = {
     - Review relevant literature
     - Present research questions/hypotheses
     """,
-    # Add other sections' guidelines similarly
+    'methodology': """
+    Guidelines for Methodology:
+    - Describe the research design and approach
+    - Explain data collection methods and tools
+    - Detail the analysis techniques used
+    - Justify choices with brief rationale
+    - Use clear, step-by-step language
+    """,
+    'results': """
+    Guidelines for Results:
+    - Present findings in a logical order
+    - Use tables, figures, or text as needed
+    - Report data objectively without interpretation
+    - Highlight key results relevant to objectives
+    - Keep it concise and factual
+    """,
+    'discussion': """
+    Guidelines for Discussion:
+    - Interpret results in context of objectives
+    - Compare findings with existing literature
+    - Discuss implications and significance
+    - Address limitations of the study
+    - Suggest future research directions
+    """,
+    'conclusion': """
+    Guidelines for Conclusion:
+    - Summarize key findings and contributions
+    - Restate the research problem and solution
+    - Avoid introducing new data or ideas
+    - Keep it brief and impactful
+    - End with a strong closing statement
+    """,
+    'references': """
+    Guidelines for References:
+    - List all cited sources accurately
+    - Follow a consistent citation style (e.g., APA, MLA)
+    - Include full bibliographic details
+    - Arrange alphabetically or by order of appearance
+    - Double-check for completeness and formatting
+    """
 }
 
 def generate_section_guidance(model, section: str, topic: str) -> str:
